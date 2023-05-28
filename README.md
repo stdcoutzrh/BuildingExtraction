@@ -3,7 +3,7 @@
 
 ## Introduction
 
-* [IEEE GRSL:《SDSC-UNet: Dual Skip Connection ViT-based U-shaped Model for Building Extraction》.2023, Renhe Zhang, Qian Zhang and Guixu Zhang.](https://ieeexplore.ieee.org/document/10108049)
+* [IEEE Geoscience and Remote Sensing Letters:《SDSC-UNet: Dual Skip Connection ViT-based U-shaped Model for Building Extraction》2023, Renhe Zhang, Qian Zhang and Guixu Zhang.](https://ieeexplore.ieee.org/document/10108049)
 
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sdsc-unet-dual-skip-connection-vit-based-u/semantic-segmentation-on-inria-aerial-image)](https://paperswithcode.com/sota/semantic-segmentation-on-inria-aerial-image?p=sdsc-unet-dual-skip-connection-vit-based-u)
@@ -53,11 +53,11 @@ If you find this project useful in your research, please consider citing our pap
 @ARTICLE{10108049,
   author={Zhang, Renhe and Zhang, Qian and Zhang, Guixu},
   journal={IEEE Geoscience and Remote Sensing Letters}, 
-  title={SDSC-UNet: Dual Skip Connection ViT-based U-shaped Model for Building Extraction}, 
+  title={SDSC-UNet: Dual Skip Connection ViT-Based U-Shaped Model for Building Extraction}, 
   year={2023},
-  volume={},
+  volume={20},
   number={},
-  pages={1-1},
+  pages={1-5},
   doi={10.1109/LGRS.2023.3270303}}
 ```
 
