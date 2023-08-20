@@ -3,12 +3,12 @@
 
 ## Introduction
 
-* [R. Zhang, Q. Zhang and G. Zhang, "SDSC-UNet: Dual Skip Connection ViT-Based U-Shaped Model for Building Extraction," in IEEE Geoscience and Remote Sensing Letters, vol. 20, pp. 1-5, 2023, Art no. 6005005, doi: 10.1109/LGRS.2023.3270303.](https://ieeexplore.ieee.org/document/10108049)
+[R. Zhang, Q. Zhang and G. Zhang, "SDSC-UNet: Dual Skip Connection ViT-Based U-Shaped Model for Building Extraction," in IEEE Geoscience and Remote Sensing Letters, vol. 20, pp. 1-5, 2023, Art no. 6005005, doi: 10.1109/LGRS.2023.3270303.](https://ieeexplore.ieee.org/document/10108049)
 
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sdsc-unet-dual-skip-connection-vit-based-u/semantic-segmentation-on-inria-aerial-image)](https://paperswithcode.com/sota/semantic-segmentation-on-inria-aerial-image?p=sdsc-unet-dual-skip-connection-vit-based-u)
 
-* [R. Zhang, Z. Wan, Q. Zhang and G. Zhang, "DSAT-Net: Dual Spatial Attention Transformer for Building Extraction from Aerial Images," in IEEE Geoscience and Remote Sensing Letters, doi: 10.1109/LGRS.2023.3304377.](https://ieeexplore.ieee.org/document/10221771)
+[R. Zhang, Z. Wan, Q. Zhang and G. Zhang, "DSAT-Net: Dual Spatial Attention Transformer for Building Extraction from Aerial Images," in IEEE Geoscience and Remote Sensing Letters, doi: 10.1109/LGRS.2023.3304377.](https://ieeexplore.ieee.org/document/10221771)
 
   	
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dsat-net-dual-spatial-attention-transformer/semantic-segmentation-on-inria-aerial-image)](https://paperswithcode.com/sota/semantic-segmentation-on-inria-aerial-image?p=dsat-net-dual-spatial-attention-transformer)
