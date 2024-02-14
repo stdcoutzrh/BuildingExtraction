@@ -7,13 +7,18 @@ This is the code for our papers:
 
 [R. Zhang, Q. Zhang and G. Zhang, "SDSC-UNet: Dual Skip Connection ViT-Based U-Shaped Model for Building Extraction," in IEEE Geoscience and Remote Sensing Letters, vol. 20, pp. 1-5, 2023, Art no. 6005005, doi: 10.1109/LGRS.2023.3270303.](https://ieeexplore.ieee.org/document/10108049)
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sdsc-unet-dual-skip-connection-vit-based-u/extracting-buildings-in-remote-sensing-images-4)](https://paperswithcode.com/sota/extracting-buildings-in-remote-sensing-images-4?p=sdsc-unet-dual-skip-connection-vit-based-u)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sdsc-unet-dual-skip-connection-vit-based-u/semantic-segmentation-on-inria-aerial-image)](https://paperswithcode.com/sota/semantic-segmentation-on-inria-aerial-image?p=sdsc-unet-dual-skip-connection-vit-based-u)
 
 
+
+
 [R. Zhang, Z. Wan, Q. Zhang and G. Zhang, "DSAT-Net: Dual Spatial Attention Transformer for Building Extraction From Aerial Images," in IEEE Geoscience and Remote Sensing Letters, vol. 20, pp. 1-5, 2023, Art no. 6008405, doi: 10.1109/LGRS.2023.3304377.](https://ieeexplore.ieee.org/document/10221771)
 
-  	
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dsat-net-dual-spatial-attention-transformer/extracting-buildings-in-remote-sensing-images-4)](https://paperswithcode.com/sota/extracting-buildings-in-remote-sensing-images-4?p=dsat-net-dual-spatial-attention-transformer)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dsat-net-dual-spatial-attention-transformer/semantic-segmentation-on-inria-aerial-image)](https://paperswithcode.com/sota/semantic-segmentation-on-inria-aerial-image?p=dsat-net-dual-spatial-attention-transformer)
 
 
@@ -27,6 +32,15 @@ conda activate airs
 conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge
 pip install -r requirements.txt
 ```
+
+## DataPreprocess
+
+We follow the [BuildFormer](https://github.com/WangLibo1995/BuildFormer) to pre-process all the datasets.
+
+❗❗❗ It should be noted that for the Massachusetts dataset (please download from here:[Kaggle](https://www.kaggle.com/datasets/balraj98/massachusetts-buildings-dataset/download?datasetVersionNumber=2) , there are actually two formats available after downloading: png and tif. The format used here is png! In addition, the generated images from [BuildFormer](https://github.com/WangLibo1995/BuildFormer) are 1500x1500. As some of our model codes currently only support input sizes of 512x512, we need to use [split_1500_to_512.py](https://github.com/stdcoutzrh/BuildingExtraction/blob/main/tools/split_1500_to_512.py) to process the images into 512x512.
+
+
+
 
 ## Training
 
